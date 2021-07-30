@@ -1,0 +1,16 @@
+{
+  "name": "api-consulta-alunos",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "graphql-yoga": "^1.18.3",
+    "mongoose": "^5.13.3",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}

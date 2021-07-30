@@ -1,0 +1,12 @@
+type Student {
+    nome: String
+    cpf: String
+    email: String
+}
+
+type Query {
+    students: [Student!]!
+    studentByName(name: String!): Student
+    studentByCpf(cpf: String!): Student
+    studentByEmail(email: String!): Student
+}
